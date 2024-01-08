@@ -1,0 +1,25 @@
+.navbar {
+    height: 60px;
+    padding-top: 1%;
+    .wrapper{
+        max-width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 90%;
+
+        span{
+            font-weight: bold;
+            margin-left: 2%;
+        }
+
+        .social{
+            display: flex;
+            justify-content: space-around;
+            width: 30%;
+        }
+        border: 2px solid #607d8b;
+        border-radius: 20px; 
+    }
+}
