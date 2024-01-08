@@ -2,6 +2,7 @@ import"./App.scss";
 import Navbar from "./components/navbar/Navbar";
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import About from "./components/about/About";
 
 const App = () => {
   const [currentDisplay, setCurrentDisplay] = useState('about')
@@ -26,7 +27,7 @@ const App = () => {
                   animate={{opacity: 1, x: 0}}
                   exit={{opacity: 0, x: -50}}
                 >
-                  <h2>About</h2>
+                  <About />
                 </motion.div>
               )
             }
