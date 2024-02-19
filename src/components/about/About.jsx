@@ -1,4 +1,3 @@
-import React from 'react'
 import './About.scss'
 
 const About = () => {
@@ -11,8 +10,10 @@ const About = () => {
                 <li>A Free and Open Source Software and Linux enthusiast</li>
                 <li>An avid reader of all kinds of books with a soft spot for fantasy novels</li>
                 <li>The designer and programmer of this website</li>
-                <li>A Dungeons and Dragons Nerd</li>
-                <li>A martial artist and sports enthusiast</li>
+                <li>An involved member of the Engineering Society (Currently the Social and Events Commissioner)</li>
+                <li>Founder and Head of The Reading Geese Book Club!</li>
+                <li>A Dungeons and Dragons and other TTRPG Enthusiast!</li>
+                <li>A martial artist and basketball fan</li>
                 <li>But most of all, a human always looking to improve himself and learn new things</li>
             </ul>
         </div>

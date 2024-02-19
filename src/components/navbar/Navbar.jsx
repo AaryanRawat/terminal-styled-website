@@ -9,6 +9,7 @@ const Navbar = () => {
                 <a href="github">Github</a>
                 <a href="linkedin">LinkedIn</a>
                 <a href="blog">Blog</a>
+                <a href="bookclub">Reading Geese Discord</a>
             </div>
         </div>
     </div>

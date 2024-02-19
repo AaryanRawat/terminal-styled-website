@@ -1,8 +1,11 @@
 import"./App.scss";
 import Navbar from "./components/navbar/Navbar";
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
+import Experience from "./components/experience/Experience";
+import Links from "./components/links/Links";
 
 const App = () => {
   const [currentDisplay, setCurrentDisplay] = useState('about')
@@ -39,7 +42,7 @@ const App = () => {
                   animate={{opacity: 1, x: 0}}
                   exit={{opacity: 0, x: -50}}
                 >
-                  <h2>Projects</h2>
+                  <Projects />
                 </motion.div>
               )
             }
@@ -51,7 +54,7 @@ const App = () => {
                   animate={{opacity: 1, x: 0}}
                   exit={{opacity: 0, x: -50}}
                 >
-                  <h2>Experience</h2>
+                  <Experience />
                 </motion.div>
               )
             }
@@ -63,7 +66,7 @@ const App = () => {
                   animate={{opacity: 1, x: 0}}
                   exit={{opacity: 0, x: -50}}
                 >
-                  <h2>Links</h2>
+                  <Links />
                 </motion.div>
               )
             }
